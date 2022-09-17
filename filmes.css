@@ -112,6 +112,30 @@ section ul li:hover{
     
 }
 
+button a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+  
+
+}
+
+#new-page{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 4px solid #FFF;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
 
 
 /* ideia proximo projeto filmes https://www.themoviedb.org/ */

@@ -99,15 +99,15 @@ section ul li:hover{
     transition: transform .3s;
 }
 
-.games-list img{
+.filmes-list img{
     border-radius: 8px; /*Bordinha da imagem 8px*/
     width: 90px; /*Diminui a largura da imagem*/
 
 }
 
-.channel-list img {
-    border-radius: 50%; /*arredonda a borda*/
-    width: 70px;  /*Diminui o tamanho da imagem*/
+.series-list img {
+    border-radius: 8px; /*Bordinha da imagem 8px*/
+    width: 90px; /*Diminui a largura da imagem*/
    
     
 }

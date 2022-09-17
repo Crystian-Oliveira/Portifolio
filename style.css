@@ -1,4 +1,11 @@
 body{
-    background-image: url(src/Fundo.jpg);
-    background-position: top center;
+    background-image: url(src/Fundo.jpg); /*coloca imagem*/
+    background-position: top center; /* posicionamento do fundo, no topo e centralizado*/
+    background-size: 100% auto; /* 100% da largura da imagem e altura automatica */
+    background-repeat: no-repeat; /* a imagem não repete */
+    background-color: #121214; /*Cor exadecimal, para fundo*/ 
+}
+
+main{
+    max-width: 580px;/* todo conteudo principal mantem a largura máxima de 580px*/
 }

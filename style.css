@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body *{
+    line-height: 160%; /*Altura da linha (Aumentar)*/
+}
+
 body{
     background-image: url(src/Fundo.jpg); /*coloca imagem*/
     background-position: top center; /* posicionamento do fundo, no topo e centralizado*/
@@ -7,5 +19,61 @@ body{
 }
 
 main{
+    
+    /* border: 1px solid red; */
     max-width: 580px;/* todo conteudo principal mantem a largura máxima de 580px*/
+     width: 90%; /*largura preferencial sobrando um pouco de tela para fundo */
+     margin: auto; /*centraliza a margem para ficar igual dos dois lados*/
+
+     display: grid;
+     gap: 24px;
+     margin-top: 32px;
+}
+
+ul{
+    list-style: none; /*Tira as bolinhas da lista*/
+    display: flex ;  /*visualização, block, bloqueia a linha inteira*/
+    gap: 16px; /*Só funciona por causa do disp. flex*/
+    margin-top: 24px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+section{ /*Usando essa para fazer a borda externa*/
+    color: #FFF;
+    background-image: linear-gradient(90deg, #9572fc 0%, rgb(168, 230, 140) 50%, rgb(133, 0, 0) 100%); /*O deg ou degrees, é a medida para ângulos e degrees nada mais é do que graus em inglês. Ele é usado em transform especificamente para rotação em graus*/
+    padding-top: 4px; /*Cria espaçamento para a borda*/
+    border-radius: 10px;
+}
+
+section div{
+    
+    background-color: #2a2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section h2{
+    font-weight: 900; /*Peso da fonte, grossura*/
+    font-size: 24px; /*tamanho da fonte*/
+    
+}
+
+section p{
+    color: #a1a1aa;
+}
+
+.games-list img{
+    border-radius: 8px; /*Bordinha da imagem 8px*/
+    width: 90px; /*Diminui a largura da imagem*/
+
+}
+
+.channel-list img {
+    border-radius: 50%; /*arredonda a borda*/
+    width: 70px;  /*Diminui o tamanho da imagem*/
 }

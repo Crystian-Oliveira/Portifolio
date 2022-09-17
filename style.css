@@ -113,25 +113,41 @@ section ul li:hover{
 }
 button a {
     text-decoration: none;
-    color: #FFF;
+    color: rgb(228, 0, 0);
     font-size: 20px;
-  
-
+    font-weight: 950;
+    font-style: oblique;
 }
 
+
+
+
 #new-page{
+    cursor: pointer;
     position: absolute;
     top: 50px;
-    right: 100px;
+    right: 70px;
     width: 200px;
     height: 50px;
-    background: none;
-    border: 4px solid #FFF;
+    background: rgba(52, 40, 104, 0.459);
+    border: 4px solid rgba(240, 1, 1, 0.411);
     border-radius: 10px;
+    box-shadow:  5px 5px rgb(161, 6, 6)
+}
+
+#new-page:hover{
     
-    
-    
-    
+        cursor: pointer;
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        width: 200px;
+        height: 50px;
+        background: rgba(52, 40, 104, 0.459);
+        border: 4px solid rgba(240, 1, 1, 0.411);
+        border-radius: 10px;
+        box-shadow:  5px 5px rgb(161, 6, 6);
+        transform: scale(1.1);
     
 }
 
